@@ -1,0 +1,13 @@
+{
+  "architectures": [
+    "QWenLMHeadModel"
+  ],
+  "model_type": "qwen2",
+  "auto_map": {
+    "AutoConfig": "qwen2.QWen2Config",
+    "AutoModelForCausalLM": "qwen2.QWenLMHeadModel",
+    "AutoTokenizer": "qwen2.QWen2Tokenizer"
+  },
+  "torch_dtype": "float16",
+  "transformers_version": "4.39.1"
+}
