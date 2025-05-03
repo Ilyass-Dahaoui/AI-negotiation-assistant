@@ -1,19 +1,15 @@
 import gradio as gr
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
-# Load your model from the Hub
 model = AutoModelForCausalLM.from_pretrained("ilyass31/AI-negotiation-assistant", device_map="auto")
 tokenizer = AutoTokenizer.from_pretrained("ilyass31/AI-negotiation-assistant")
 
-# Set up inference pipeline
 pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, device_map="auto")
 
-# Define the prediction function
 def generate_response(prompt, max_tokens, temperature):
     output = pipe(prompt, max_new_tokens=max_tokens, temperature=temperature, do_sample=True)
     return output[0]["generated_text"]
 
-# Create Gradio interface
 iface = gr.Interface(
     fn=generate_response,
     inputs=[
