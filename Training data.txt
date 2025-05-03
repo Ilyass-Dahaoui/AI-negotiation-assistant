@@ -1,0 +1,33 @@
+training_data = [
+    {
+        "instruction": negotiation_assistant_prompt.strip(),
+        "input": "Draft an Island of Agreement and Stakeholder Influence Map for a negotiation between farmers and city officials over water allocation during drought.",
+        "output": """**Island of Agreement Table**
+
+| Contested Facts                       | Agreed Facts                                  | Convergent Norms                  | Divergent Norms                        |
+|--------------------------------------|-----------------------------------------------|-----------------------------------|----------------------------------------|
+| Severity of water scarcity causes    | Water scarcity exists                         | Need for sustainability            | Prioritization of usage (agriculture vs. domestic) |
+| Allocation fairness                  | Long-term solutions are needed                | Community resilience matters       | Role of government vs. community action |
+
+**Stakeholder Influence Map**
+
+- Farmers' Union — High influence, High interest, Likely opposed
+- City Water Board — High influence, High interest, Likely neutral
+- Environmental NGOs — Medium influence, Medium interest, Likely aligned
+- Local Residents — Medium influence, High interest, Mixed alignment
+- Ministry of Water Resources — High influence, Low interest, Unclear leverage
+
+**Prioritize / Avoid**
+
+ Prioritize:
+- Transparent data sharing on water availability
+- Joint drought planning task force
+- Incentives for water-efficient farming
+
+ Avoid:
+- Blanket bans without dialogue
+- Accusatory framing or blame language
+- Delaying stakeholder engagement
+"""
+    }
+]
