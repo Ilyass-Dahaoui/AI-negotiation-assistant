@@ -5,7 +5,7 @@ tags:
 - transformers
 - unsloth
 - qwen3
-- trl
+- climate
 license: apache-2.0
 language:
 - en
@@ -70,5 +70,3 @@ If you use this model in your research or application, please cite the following
   url = {https://huggingface.co/ilyass31/DH-AI-negotiation-assistant},
   note = {Accessed: 2025-05-03}
 }
-
-
