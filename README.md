@@ -22,7 +22,7 @@ This model is a fine-tuned version of [`unsloth/qwen3-14b-unsloth-bnb-4bit`](htt
 
 - **Base model:** `unsloth/qwen3-14b-unsloth-bnb-4bit`
 - **Architecture:** Qwen3-14B (optimized with Unsloth)
-- **Fine-tuned by:** [`ilyass31`](https://huggingface.co/ilyass31)
+- **Fine-tuned by:** me ^^ [`ilyass31`](https://huggingface.co/ilyass31)
 - **License:** Apache 2.0
 - **Language:** English
 - **Precision:** 4-bit quantization using `bnb` for efficient inference
