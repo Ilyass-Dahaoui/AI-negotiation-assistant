@@ -52,9 +52,13 @@ This model was fine-tuned using:
 
 ## Training Hyperparameters
 -Optimizer: AdamW
+
 -Learning rate: 5e-5
+
 -Batch size: 16
+
 -Epochs: 3
+
 -Warmup ratio: 0.1
 
 ## Limitations
@@ -63,7 +67,7 @@ This model was fine-tuned using:
 ## Citation 
 
 If you use this model in your research or application, please cite the following:
-@misc{ilyass31_dhai_negotiation_assistant_2025,
+@misc{ilyass31_dh_ai_negotiation_assistant_2025,
   author = {ilyas DAHAOUI},
   title = {DH-AI Negotiation Assistant},
   year = {2025},
